@@ -40,7 +40,7 @@ const speakers = [
 ];
 
 function createSpeakers(speakers) {
-  for (let i = 0; i < speakers.length; i+=1) {
+  for (let i = 0; i < speakers.length; i+= 1) {
     const speaker = speakers[i];
 
     const speakerCard = document.createElement('div');
