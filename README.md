@@ -13,21 +13,23 @@
 
 ## :link: Visit Page
 
-[My Portfolio Website](...)
+[My Project Website](https://mekuseo.github.io/Global-Summit-Project/)
+[My project Presentation link ](https://mekuseo.github.io/Global-Summit-Project/)
+
 
 ## :black_nib: Authors
 
-:abstral_reality: **IndieCoderMM**
+:Written Multiverse: **mekuseo**
 
-- GitHub: [@IndieCoderMM](https://github.com/mekuseo)
-- Twitter: [@OoHeinth](https://twitter.com/pison_fullstack)
-- LinkedIn: [hthantoo](https://www.linkedin.com/in/kanuchukwuemeka)
+- GitHub: [@mekuseo](https://github.com/mekuseo)
+- Twitter: [@fullstack_pison](https://twitter.com/pison_fullstack)
+- LinkedIn: [kanuchukwuemeka](https://www.linkedin.com/in/kanuchukwuemeka)
 
 ## :handshake: Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/lmekuseo/global-summit-project/issues) page.
+Feel free to check the [issues](https://github.com/mekuseo/global-summit-project/issues) page.
 
 ## :tv: Project Presentation
 
