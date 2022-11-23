@@ -212,29 +212,45 @@ nav button {
   padding: 18px 20px;
 }
 
+.hero-hello {
+  font-size: 1rem;
+  color: rgb(244,69,33);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
 .hero h1 {
   font-size: 2rem;
   color: rgb(244,69,33);
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .hero-p {
+  background-color: white;
   border: 2px solid white;
   padding: 20px;
+  text-align: center;
   margin-bottom: 20px;
   line-height: 1.2rem;
   font-weight: 500;
 }
 
 .hero-p-bold {
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 10px;
+  text-align: center;
 }
 
-.hero-national {
-  font-size: 0.7rem
+.hero-mail {
+  font-size: 0.7rem;
+  text-align: center;
+  color: black;
+}
+
+.hero-mail:hover {
+  color: rgb(244,69,33);
 }
 
 .hero button {
@@ -248,125 +264,117 @@ nav button {
 }
 
 main {
-  background-color: rgb(39,42,49);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  background-color: white;
 }
 
-main h1 {
-  color: white;
+main h2 {
   font-size: 1.5rem;
-  font-weight: 700;
-  margin: 20px 0;
   text-align: center;
+  padding: 40px 0;
+  font-weight: 700;
+  margin: 0 30px;
+  line-height: 1.8rem;
 }
 
-.main-underline {
-  width: 30px;
-  height: 2px;
-  background-color: rgb(244,69,33);
-  margin-bottom: 20px;
-  justify-content: center;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(60,63,70);
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.main-icon {
-  color: #fff;
-  font-size: 1.2rem;
-  padding-right: 20px;
-  text-align: left;
-}
-
-.card-header {
-  color: rgb(244,69,33);
+main p {
   font-size: 1rem;
-  font-weight: 700;
-  padding-right: 20px;
-  text-align: left;
+  text-align: center;
+  padding: 0 25px;
+  line-height: 1.4rem;
 }
 
-.card-p {
-  color: #fff;
-  font-size: 0.8rem;
-  text-align: left;
-  margin-left: 10px;
-}
-
-.main-btn {
-  background-color: rgb(244,69,33);
-  color: white;
-  padding: 20px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.speaker-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 20px;
-}
-
-.speakers h2 {
-  padding: 40px;
+.main-img {
+  margin: 30px 20px;
+  border: 2px solid #efefef;
   text-align: center;
 }
 
-.speaker-card img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-right: 20px;
+.main-img img {
+  width: 50%;
+  margin: 0 auto;
 }
 
-.speaker-details > * {
-  padding: 5px 0;
+.summit-experience {
+  margin: 30px 0;
 }
-.speaker-details h3 {
+
+.summit-experience h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 30px 0;
   font-weight: 700;
+  margin: 0 30px;
+  line-height: 1.8rem;
 }
 
-.speaker-details p {
-  font-size: 0.8rem;
-  color: rgb(244,69,33);
+.summit-experience p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 25px;
+  line-height: 1.4rem;
+  margin: 20px 0;
 }
 
-.dash {
-  width: 30px;
-  padding: 0 !important;
-  height: 1px; 
-  background-color: rgb(244,69,33);
+.section-img {
+  width: 90%
 }
 
-.speaker-details span {
-  font-size: 0.8rem;
-  color: #000;
+.section-img img {
+  margin: 10px 20px;
+  width: 100%;
 }
 
 .partner {
-  display: none;
+  display: block;
+  background-image: url('images/partner-backgroundPC.webp');
+  padding: 40px;
+}
+
+.partner p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 4px;
+}
+
+.partner-underline {
+  width: 10%;
+  height: 2px;
+  background-color: rgb(244,69,33);
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.partner-logos {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  font-size: 3rem;
+}
+
+.partner-logos i {
+  padding: 0 15px;
 }
 
 .footer {
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(62,62,62);
+  padding: 40px;
+  color: white;
+  text-align: center;
 }
 
-/* desktop version */
+.footer img {
+  width: 70px;
+}
+
+.footer p {
+  text-align: right;
+  font-size: 0.6rem;
+}
 
 @media only screen and (min-width: 765px) {
   .upper-nav {
@@ -467,68 +475,15 @@ main h1 {
     transition: 0.2s ease;
   }
 
-  .main-btn:hover {
-    background-color: rgb(244,69,33);
-    color: white;
-  }
-
-  .speaker-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    padding: 0 15px;
-  }
-
-  .partner {
-    display: block;
-    background-image: url('images/partner-backgroundPC.webp');
-    padding: 40px;
-  }
-
-  .partner p {
-    color: white;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 20px 4px;
-  }
-
-  .partner-underline {
-    width: 10%;
-    height: 2px;
-    background-color: rgb(244,69,33);
-    margin-bottom: 20px;
-    margin: auto;
-  }
-
-  .partner-logos {
-    color: white;
+  .section-img {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
-    font-size: 3rem;
-  }
-
-  .partner-logos i {
-    padding: 0 20px;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: rgb(62,62,62);
-    padding: 40px;
-    color: white;
-    text-align: center;
+    width: 100%;
   }
 
-  .footer img {
-    width: 200px;
+  .section-img img {
+    width: 300px;
+    height: 200px;
   }
 }
-
-/* Toggle Hamburgeru Menu */
-
-
-
-
