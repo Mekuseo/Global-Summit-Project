@@ -175,23 +175,28 @@ nav {
 
 .logo {
   width: 150px;
+  cursor: pointer;
 }
 
 .hamburger-menu {
-  cursor: pointer;
+  /* cursor: pointer;
   top: 20px;
   right: 35px;
   transition: all 0.5s ease-out;
-  align-self: flex-end;
+  align-self: flex-end; */
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
 }
 
-.line {
+
+/* .line {
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
   background: #fff;
   transition: all 0.5s ease-out;
-}
+} */
 
 .nav-menu {
   display: none;
@@ -200,6 +205,7 @@ nav {
 nav button {
   display: none;
 }
+
 
 .hero {
   display: flex;
@@ -287,6 +293,12 @@ main p {
   margin: 30px 20px;
   border: 2px solid #efefef;
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.main-img:hover {
+  border: 2px solid rgb(244,69,33);
 }
 
 .main-img img {
@@ -316,12 +328,74 @@ main p {
 }
 
 .section-img {
-  width: 90%
+  margin: 20px;;
+}
+
+.section-img > * {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+  align-items: center;
+  color: white;
+  font-weight: 700;
 }
 
 .section-img img {
   margin: 10px 20px;
   width: 100%;
+}
+
+.section-summit-img {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219,110,90)), url(https://picsum.photos/1280/853/?random=4) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section-summit-img:hover {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219,110,90)), url(https://picsum.photos/1280/853/?random=4) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid rgb(36, 33, 32);
+}
+
+.section-summit-img2 {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219,110,90)), url(https://picsum.photos/1280/853/?random=3) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section-summit-img2:hover {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219,110,90)), url(https://picsum.photos/1280/853/?random=3) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid rgb(36, 33, 32);
+}
+
+.summit-tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  color: white;
+  font-weight: 700;
 }
 
 .partner {
@@ -408,6 +482,13 @@ main p {
     border: 2px solid white;
     padding: 5px;
     color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  nav button:hover {
+    background-color: rgb(87, 79, 79);
+    border: 2px solid white;
   }
 
   .hero {
@@ -479,11 +560,72 @@ main p {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+  }
+
+  .section-img > * {
+    display: flex;
     width: 100%;
+    margin: 20px 0;
+    align-items: center;
   }
 
   .section-img img {
     width: 300px;
     height: 200px;
   }
+
+  .partner {
+    display: none;
+  }
+}
+
+/* Toggle Hamburger Menu */
+
+.fa-bars.close {
+  display: none; 
+}
+
+.fa-xmark {
+  display: none;
+}
+
+.fa-xmark.active {
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  right: 20px;
+}
+
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244,69,33);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
+  position: fixed;
+}
+
+.nav-menu.active > * {
+  padding: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav-menu.active > *:hover {
+  background-color: rgb(62,62,62);
+}
+
+.nav-menu.active > *:hover > .fa-xmark {
+  display: none;
 }

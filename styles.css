@@ -163,6 +163,7 @@ header {
   color: white;
   margin: 10px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav {
@@ -185,6 +186,7 @@ nav {
   align-self: flex-end; */
   color: white;
   font-size: 30px;
+  cursor: pointer;
 }
 
 
@@ -316,6 +318,20 @@ main h1 {
   font-size: 1.5rem;
   cursor: pointer;
   margin-top: 20px;
+  transition: 0.2s ease;
+}
+
+.main-btn:hover {
+  background-color: rgb(244,69,33);
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.2s ease;
+  transform: scale(1.1);
 }
 
 .speaker-card {
@@ -403,6 +419,14 @@ main h1 {
     border: 2px solid white;
     padding: 5px;
     color: white;
+    transition: 0.2s ease;
+  }
+
+  nav button:hover {
+    background-color: rgb(48, 46, 45);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition: 0.2s ease;
   }
 
   .hero {
@@ -542,6 +566,10 @@ main h1 {
 
 .fa-xmark.active {
   display: block;
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  right: 20px;
 }
 
 .nav-menu.active {
@@ -552,11 +580,26 @@ main h1 {
   background-color: rgb(244,69,33);
   height: 100vh;
   width: 100%;
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+  padding: 10px;
+  position: fixed;
 }
 
+.nav-menu.active > * {
+  padding: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
 
+.nav-menu.active > *:hover {
+  background-color: rgb(62,62,62);
+}
 
+.nav-menu.active > *:hover > .fa-xmark {
+  display: none;
+}

@@ -1,13 +1,4 @@
 const speakerContainer = document.querySelector(".speaker-container");
-const speakerCard = document.querySelectorAll(".speaker-card");
-
-// function toggleSpeakerDetails() {
-//   speakerCard.forEach(card => {
-//     card.addEventListener('click', () => {
-//       card.classList.toggle('active');
-//     });
-//   });
-// }
 
 const speakers = [
   {
@@ -17,18 +8,45 @@ const speakers = [
     image: "./images/Itachi_Uchiha001.webp",
   },
   {
-    name: "Jane Doe",
-    title: "Web Designer",
-    bio: "The Extinguisher of the Uchiha Clan",
-    image: "./images/Itachi_Uchiha001.webp",
+    name: "Naruto Uzumaki",
+    title: "Hokage of the Hidden Leaf Village",
+    bio: "The Current host of the Nine-Tails, Naruto Uzumaki is the main protagonist of the Naruto series.",
+    image: "./images/naruto.png",
+  },
+  {
+    name: "Sasuke Uchiha",
+    title: "The Last Uchiha",
+    bio: "Sasuke Uchiha is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.",
+    image: "./images/sasuke.jpg",
+  },
+  {
+    name: "Sakura Haruno",
+    title: "The Medic Ninja",
+    bio: "Sakura Haruno is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.",
+    image: "./images/sakura.png",
+  },
+  {
+    name: "Kakashi Hatake",
+    title: "The Copy Ninja",
+    bio: "Kakashi Hatake is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.",
+    image: "./images/kakashi.png",
+  },
+  {
+    name: "Kisame Hoshigaki",
+    title: "The Shark Ninja",
+    bio: "Kisame Hoshigaki is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.",
+    image: "./images/kisame.jpg",
   },
 ];
 
-// createSpeakers(speakers);
+createSpeakers(speakers);
 
 function createSpeakers(speakers) {
   for (let i = 0; i < speakers.length; i++) {
     const speaker = speakers[i];
+
+    const speakerCard = document.createElement("div");
+    speakerCard.classList.add("speaker-card");
 
     const speakerImage = document.createElement("img");
     speakerImage.src = speaker.image;
@@ -63,7 +81,7 @@ function createSpeakers(speakers) {
   return speakerContainer;
 }
 
-// Toogle Menu
+// Toggle Menu
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".nav-menu");
 const faBars = document.querySelector(".fa-bars");
@@ -73,10 +91,23 @@ hamburgerMenu.addEventListener("click", () => {
   faBars.classList.toggle("close");
   faXmark.classList.toggle("active");
 
-  if (faBars.classList==='close'){
+  if (faBars.classList.contains("close")) {
     navMenu.classList.add("active");
-  }else {
+    faBars.classList.remove("active");
+    faXmark.classList.add("active");
+  } else {
     navMenu.classList.remove("active");
   }
+});
+
+const link = document.querySelectorAll(".nav-menu .link");
+
+link.forEach((link) => {
+  link.addEventListener("click", () => {
+    console.log("clicked");
+    navMenu.classList.remove("active");
+    faBars.classList.remove("close");
+    faXmark.classList.remove("active");
+  });
 });
 
