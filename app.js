@@ -24,7 +24,7 @@ const speakers = [
   },
 ];
 
-createSpeakers(speakers);
+// createSpeakers(speakers);
 
 function createSpeakers(speakers) {
   for (let i = 0; i < speakers.length; i++) {
@@ -66,7 +66,17 @@ function createSpeakers(speakers) {
 // Toogle Menu
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".nav-menu");
+const faBars = document.querySelector(".fa-bars");
+const faXmark = document.querySelector(".fa-xmark");
 
 hamburgerMenu.addEventListener("click", () => {
-  navMenu.classList.toggle("active");
+  faBars.classList.toggle("close");
+  faXmark.classList.toggle("active");
+
+  if (faBars.classList==='close'){
+    navMenu.classList.add("active");
+  }else {
+    navMenu.classList.remove("active");
+  }
 });
+
