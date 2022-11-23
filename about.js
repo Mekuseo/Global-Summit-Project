@@ -1,14 +1,12 @@
-const speakerContainer = document.querySelector(".speaker-container");
-
 // Toggle Menu
-const hamburgerMenu = document.querySelector(".hamburger-menu");
-const navMenu = document.querySelector(".nav-menu");
-const faBars = document.querySelector(".fa-bars");
-const faXmark = document.querySelector(".fa-xmark");
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const navMenu = document.querySelector('.nav-menu');
+const faBars = document.querySelector('.fa-bars');
+const faXmark = document.querySelector('.fa-xmark');
 
-hamburgerMenu.addEventListener("click", () => {
-  faBars.classList.toggle("close");
-  faXmark.classList.toggle("active");
+hamburgerMenu.addEventListener('click', () => {
+  faBars.classList.toggle('close');
+  faXmark.classList.toggle('active');
 
   if(faBars.classList.contains('close')){
     navMenu.classList.add('active');
@@ -19,13 +17,12 @@ hamburgerMenu.addEventListener("click", () => {
   }
 });
 
-const link = document.querySelectorAll(".nav-menu .link");
+const link = document.querySelectorAll('.nav-menu .link');
 
 link.forEach((link) => {
-  link.addEventListener("click", () => {
-    console.log("clicked");
-    navMenu.classList.remove("active");
-    faBars.classList.remove("close");
-    faXmark.classList.remove("active");
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('active');
+    faBars.classList.remove('close');
+    faXmark.classList.remove('active');
   });
 });
