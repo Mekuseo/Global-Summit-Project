@@ -94,7 +94,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -335,7 +334,7 @@ main p {
 }
 
 .section-summit-img {
-  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)),
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90));
     url(https://picsum.photos/1280/853/?random=4) no-repeat top center;
   width: 100%;
   height: 340px;
@@ -346,7 +345,7 @@ main p {
 }
 
 .section-summit-img:hover {
-  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)),
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90));
     url(https://picsum.photos/1280/853/?random=4) no-repeat top center;
   width: 100%;
   height: 340px;
@@ -358,7 +357,7 @@ main p {
 }
 
 .section-summit-img2 {
-  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)),
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90));
     url(https://picsum.photos/1280/853/?random=3) no-repeat top center;
   width: 100%;
   height: 340px;
@@ -369,7 +368,7 @@ main p {
 }
 
 .section-summit-img2:hover {
-  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)),
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90));
     url(https://picsum.photos/1280/853/?random=3) no-repeat top center;
   width: 100%;
   height: 340px;
