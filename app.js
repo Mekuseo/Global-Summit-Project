@@ -23,7 +23,7 @@ const speakers = [
     name: "Sakura Haruno",
     title: "The Medic Ninja",
     bio: "Sakura Haruno is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.",
-    image: "./images/sakura.png",
+    image: "./images/Sakura.png",
   },
   {
     name: "Kakashi Hatake",
