@@ -13,8 +13,8 @@
 
 ## :link: Visit Page
 
-[My Project Website](https://mekuseo.github.io/Global-Summit-Project/)
-[My project Presentation link ](https://mekuseo.github.io/Global-Summit-Project/)
+- [My Project Website](https://mekuseo.github.io/Global-Summit-Project/)
+- [My project Presentation link ](https://www.loom.com/share/806a8261b36344cc900db8939718c5f7)
 
 
 ## :black_nib: Authors
