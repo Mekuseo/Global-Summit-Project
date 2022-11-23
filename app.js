@@ -39,7 +39,6 @@ const speakers = [
   },
 ];
 
-
 function createSpeakers(speakers) {
   for (let i = 0; i < speakers.length; i++) {
     const speaker = speakers[i];
@@ -88,7 +87,7 @@ const navMenu = document.querySelector('.nav-menu');
 const faBars = document.querySelector('.fa-bars');
 const faXmark = document.querySelector('.fa-xmark');
 
-hamburgerMenu.addEventListener("click", () => {
+hamburgerMenu.addEventListener('click', () => {
   faBars.classList.toggle('close');
   faXmark.classList.toggle('active');
 

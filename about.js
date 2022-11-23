@@ -8,7 +8,7 @@ hamburgerMenu.addEventListener('click', () => {
   faBars.classList.toggle('close');
   faXmark.classList.toggle('active');
 
-  if(faBars.classList.contains('close')){
+  if (faBars.classList.contains('close')) {
     navMenu.classList.add('active');
     faBars.classList.remove('active');
     faXmark.classList.add('active');
