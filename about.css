@@ -143,6 +143,7 @@ table {
 /* NAV SECTION */
 
 header {
+  /* background-image: url("images/cc-background.png") ; */
   background-size: stretch;
   background-repeat: no-repeat;
 }
@@ -154,13 +155,16 @@ header {
   display: none;
 }
 
+.partner-logos i {
+  padding: 0 15px;
+}
+
 .upper-nav li i,
 a {
   width: 20px;
   color: white;
   margin: 10px;
   text-decoration: none;
-  cursor: pointer;
 }
 
 nav {
@@ -173,6 +177,7 @@ nav {
 
 .logo {
   width: 150px;
+  cursor: pointer;
 }
 
 .hamburger-menu {
@@ -200,37 +205,45 @@ nav button {
   padding: 18px 20px;
 }
 
-main h1 {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 20px 0;
-  text-align: center;
+.hero-hello {
+  font-size: 1rem;
+  color: rgb(244, 69, 33);
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .hero h1 {
   font-size: 2rem;
   color: rgb(244, 69, 33);
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .hero-p {
+  background-color: white;
   border: 2px solid white;
   padding: 20px;
+  text-align: center;
   margin-bottom: 20px;
   line-height: 1.2rem;
   font-weight: 500;
 }
 
 .hero-p-bold {
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 10px;
+  text-align: center;
 }
 
-.hero-national {
+.hero-mail {
   font-size: 0.7rem;
+  text-align: center;
+  color: black;
+}
+
+.hero-mail:hover {
+  color: rgb(244, 69, 33);
 }
 
 .hero button {
@@ -244,140 +257,180 @@ main h1 {
 }
 
 main {
-  background-color: rgb(39, 42, 49);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  background-color: white;
 }
 
 main h2 {
-  color: white;
   font-size: 1.5rem;
-  font-weight: 700;
-  margin: 20px 0;
   text-align: center;
+  padding: 40px 0;
+  font-weight: 700;
+  margin: 0 30px;
+  line-height: 1.8rem;
 }
 
-.main-underline {
-  width: 30px;
-  height: 2px;
-  background-color: rgb(244, 69, 33);
-  margin: 10px 0 20px;
-  justify-content: center;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(60, 63, 70);
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.main-icon {
-  color: #fff;
-  font-size: 1.5rem;
-  padding-right: 20px;
-  text-align: left;
-}
-
-.card-header {
-  color: rgb(244, 69, 33);
+main p {
   font-size: 1rem;
+  text-align: center;
+  padding: 0 25px;
+  line-height: 1.4rem;
+}
+
+.main-img {
+  margin: 30px 20px;
+  border: 2px solid #efefef;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.main-img:hover {
+  border: 2px solid rgb(244, 69, 33);
+}
+
+.main-img img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.summit-experience {
+  margin: 30px 0;
+}
+
+.summit-experience h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 30px 0;
   font-weight: 700;
-  padding-right: 20px;
-  text-align: left;
+  margin: 0 30px;
+  line-height: 1.8rem;
 }
 
-.card-p {
-  color: #fff;
-  font-size: 0.8rem;
-  text-align: left;
-  margin-left: 10px;
+.summit-experience p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 25px;
+  line-height: 1.4rem;
+  margin: 20px 0;
 }
 
-.main-btn {
-  background-color: rgb(244, 69, 33);
+.section-img {
+  margin: 20px;
+}
+
+.section-img > * {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+  align-items: center;
   color: white;
-  padding: 20px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: 0.2s ease;
+  font-weight: 700;
 }
 
-.main-btn:hover {
-  background-color: rgb(244, 69, 33);
-  color: white;
-  padding: 20px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: 0.2s ease;
-  transform: scale(1.1);
+.section-img img {
+  margin: 10px 20px;
+  width: 100%;
 }
 
-.speaker-card {
+.section-summit-img {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)), url(https://picsum.photos/1280/853/?random=4) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section-summit-img:hover {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)), url(https://picsum.photos/1280/853/?random=4) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid rgb(36, 33, 32);
+}
+
+.section-summit-img2 {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)), url(https://picsum.photos/1280/853/?random=3) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section-summit-img2:hover {
+  background: linear-gradient(to top, rgba(240, 218, 215, 0), rgb(219, 110, 90)), url(https://picsum.photos/1280/853/?random=3) no-repeat top center;
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid rgb(36, 33, 32);
+}
+
+.summit-tags {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 20px;
-}
-
-.speakers h2 {
-  padding: 40px;
-  text-align: center;
-}
-
-.speaker-card img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.speaker-details > * {
-  padding: 5px 0;
-}
-
-.speaker-details h3 {
+  flex-direction: column;
+  padding: 20px 0;
+  color: white;
   font-weight: 700;
-}
-
-.speaker-details p {
-  font-size: 0.8rem;
-  color: rgb(244, 69, 33);
-}
-
-.dash {
-  width: 30px;
-  padding: 0 !important;
-  height: 1px;
-  background-color: rgb(244, 69, 33);
-}
-
-.speaker-details span {
-  font-size: 0.8rem;
-  color: #000;
 }
 
 .partner {
-  display: none;
+  display: block;
+  background-image: url("images/partner-backgroundPC.webp");
+  padding: 40px;
+}
+
+.partner p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 4px;
+}
+
+.partner-underline {
+  width: 10%;
+  height: 2px;
+  background-color: rgb(244, 69, 33);
+  margin: 0 auto 20px auto;
+}
+
+.partner-logos {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  font-size: 3rem;
 }
 
 .footer {
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(62, 62, 62);
+  padding: 40px;
+  color: white;
+  text-align: center;
 }
 
-/* desktop version */
+.footer img {
+  width: 70px;
+}
+
+.footer p {
+  text-align: right;
+  font-size: 0.6rem;
+}
 
 @media only screen and (min-width: 765px) {
   .upper-nav {
@@ -411,14 +464,13 @@ main h2 {
     border: 2px solid white;
     padding: 5px;
     color: white;
+    cursor: pointer;
     transition: 0.2s ease;
   }
 
   nav button:hover {
-    background-color: rgb(48, 46, 45);
-    border: 2px solid rgb(255, 255, 255);
-    color: white;
-    transition: 0.2s ease;
+    background-color: rgb(87, 79, 79);
+    border: 2px solid white;
   }
 
   .hero {
@@ -462,111 +514,53 @@ main h2 {
     display: flex;
     flex-direction: column;
     padding: 3px;
-    width: 100%;
-    height: 100%;
-    margin: 3px;
+    width: 130px;
+    height: 130px;
+    margin: 7px;
     border-radius: 0;
-    position: relative;
-    transition: 0.2s ease;
   }
 
-  .card:hover {
-    border: 2px solid white;
-  }
-
-  .fa-solid::before {
-    font-size: 30px;
-  }
-
-  .fa-solid {
-    padding: 10px 0;
-    text-align: center;
-  }
-
-  .card-header {
-    font-size: 1rem;
-    text-align: center;
-    margin: 0;
+  .card > * {
     padding: 10px;
-  }
-
-  .card-p {
-    font-size: 0.7rem;
-    text-align: center;
-    padding: 10px 10px 20px;
     margin: 0;
-    line-height: 1rem;
+    font-size: 0.6rem;
+    align-items: center;
   }
 
   .main-btn {
     background-color: transparent;
     padding: 3px;
     margin: 30px 0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(244, 69, 33);
     cursor: pointer;
     transition: 0.2s ease;
   }
 
-  .main-btn:hover {
-    background-color: rgb(244, 69, 33);
-    color: white;
+  .section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
-  .speaker-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    padding: 0 15px;
+  .section-img > * {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    align-items: center;
+  }
+
+  .section-img img {
+    width: 300px;
+    height: 200px;
   }
 
   .partner {
-    display: block;
-    background-image: url("images/partner-backgroundPC.webp");
-    padding: 40px;
-  }
-
-  .partner p {
-    color: white;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 20px 4px;
-  }
-
-  .partner-underline {
-    width: 10%;
-    height: 2px;
-    background-color: rgb(244, 69, 33);
-    margin: 0 auto 20px auto;
-  }
-
-  .partner-logos {
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin: 40px 0;
-    font-size: 3rem;
-  }
-
-  .partner-logos i {
-    padding: 0 20px;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(62, 62, 62);
-    padding: 40px;
-    color: white;
-    text-align: center;
-  }
-
-  .footer img {
-    width: 200px;
+    display: none;
   }
 }
 
-/* Toggle Hamburgeru Menu */
+/* Toggle Hamburger Menu */
 
 .fa-bars.close {
   display: none;
