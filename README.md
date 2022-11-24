@@ -2,7 +2,7 @@
 
 # :computer: GLOBAL SUMMIT PROJECT
 
-> This is a portfolio website to showcase my projects.
+> This is my first Capstone project. Shout out to (Cindy Shin) the Original Owner of the design idea
 
 ## :gear: Built With
 

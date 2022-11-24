@@ -20,12 +20,6 @@ const speakers = [
     image: './images/sasuke.jpg',
   },
   {
-    name: 'Sakura Haruno',
-    title: 'The Medic Ninja',
-    bio: 'Sakura Haruno is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.',
-    image: './images/Sakura.jpg',
-  },
-  {
     name: 'Kakashi Hatake',
     title: 'The Copy Ninja',
     bio: 'Kakashi Hatake is a fictional character in the Naruto manga and anime series created by Masashi Kishimoto.',
@@ -43,7 +37,7 @@ function createSpeakers(speakers) {
   for (let i = 0; i < speakers.length; i += 1) {
     const speaker = speakers[i];
 
-    const speakerCard = document.createElement('div');
+    const speakerCard = document.createElement('article');
     speakerCard.classList.add('speaker-card');
 
     const speakerImage = document.createElement('img');

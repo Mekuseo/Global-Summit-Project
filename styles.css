@@ -252,11 +252,19 @@ main {
   padding: 20px;
 }
 
+main h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+  text-align: center;
+}
+
 .main-underline {
   width: 30px;
   height: 2px;
   background-color: rgb(244, 69, 33);
-  margin-bottom: 20px;
+  margin: 10px 0 20px;
   justify-content: center;
 }
 
@@ -272,7 +280,7 @@ main {
 
 .main-icon {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-right: 20px;
   text-align: left;
 }
@@ -454,18 +462,41 @@ main {
     display: flex;
     flex-direction: column;
     padding: 3px;
-    width: 130px;
-    height: 130px;
-    margin: 7px;
+    width: 100%;
+    height: 100%;
+    margin: 3px;
     border-radius: 0;
+    position: relative;
   }
 
-  .card > * {
+  .fa-solid::before {
+    font-size: 30px;
+  }
+
+  .fa-solid {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .card-header {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 5px;
+  }
+
+  .card-p {
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0 5px 5px;
+  }
+
+  /* .card > * {
     padding: 10px;
     margin: 0;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     align-items: center;
-  }
+    text-align: center;
+  } */
 
   .main-btn {
     background-color: transparent;
