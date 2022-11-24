@@ -1,44 +1,141 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# :computer: GLOBAL SUMMIT PROJECT
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-> This is my first Capstone project. Shout out to (Cindy Shin) the Original Owner of the design idea
+Modify this file to match your project and remove sections that don't apply.
 
-## :gear: Built With
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-- HTML
-- CSS
-- JavaScript
-- Github
+After you're finished please remove all the comments and instructions!
+-->
 
-## :link: Visit Page
+<div align="center">
 
-- [My Project Website](https://mekuseo.github.io/Global-Summit-Project/)
-- [My project Presentation link ](https://www.loom.com/share/806a8261b36344cc900db8939718c5f7)
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Global Summit Capstone Project] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[Capstone-Project]** is a project that is built to demonstrate the skills and knowledge acquired throughout the Microverse curriculum. The project is built using HTML, CSS, and JavaScript. The project is built using the [Microverse curriculum](https://www.microverse.org/ "Microverse curriculum").
+
+## 🛠 Built With Html, CSS, JavaScript, Github<a name="built-with"></a>
 
 
-## :black_nib: Authors
+<!-- Features -->
 
-:Written Multiverse: **mekuseo**
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Dynamic_loading]**
+- **[Mobile_menu_change]**
+- **[Animations]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> https://mekuseo.github.io/Global-Summit-Project/
+
+- [Live Demo Link](https://www.loom.com/share/806a8261b36344cc900db8939718c5f7)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Author1**
 
 - GitHub: [@mekuseo](https://github.com/mekuseo)
 - Twitter: [@fullstack_pison](https://twitter.com/pison_fullstack)
 - LinkedIn: [kanuchukwuemeka](https://www.linkedin.com/in/kanuchukwuemeka)
 
-## :handshake: Contributing
 
-Contributions, issues, and feature requests are welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Feel free to check the [issues](https://github.com/mekuseo/global-summit-project/issues) page.
+<!-- FUTURE FEATURES -->
 
-## :tv: Project Presentation
+## 🔭 Future Features <a name="future-features"></a>
 
-See my [presentation about this project](...).
+> Describe 1 - 3 features you will add to the project.
 
-## :star_struck: Show your support
+- **[Dynamic_loading]**
+- **[Mobile_menu_change]**
+- **[Animations]**
 
-Give a :star: if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :scroll: License
+<!-- SUPPORT -->
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank thank (Cindy Shin) the Original Owner of the design idea
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
